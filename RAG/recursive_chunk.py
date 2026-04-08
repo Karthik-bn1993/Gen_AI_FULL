@@ -1,13 +1,13 @@
-def recursive_chunk(text, max_size=50):
+def recursive_chunk(text, max_size=40):
     if len(text) <= max_size:
         return [text]
 
-    sentences = text.split(". ")
+    sentences = text.split(". ")  # (This is sentence one). (This is sentence two). (This is sentence three).
     chunks = []
     current = ""
 
-    for sentence in sentences:
-        if len(current) + len(sentence) <= max_size:
+    for sentence in sentences: 
+        if len(current) + len(sentence) <= max_size:  # 0 + 
             current += sentence + ". "
         else:
             chunks.append(current.strip())
