@@ -4,3 +4,4 @@ faiss-cpu
 langchain
 pypdf
 scikit-learn
+langchain-community
