@@ -1,5 +1,5 @@
 text = """Artificial Intelligence is transforming industries.
-Machine learning is a subset of AI.
+Machine learning is a subset of AI yes.
 Deep learning uses neural networks.
 Python is widely used for AI development.
 It has many libraries like TensorFlow and PyTorch."""
