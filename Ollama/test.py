@@ -10,6 +10,3 @@ response = ollama.chat(
 print(response['message']['content'])
 
 # ollama pull nomic-embed-text
-
-git config --global user.email "vinayakapallakki@gmail.com"
-git config --global user.name "ViniPallakki"
